@@ -16,11 +16,13 @@ code {
 		monospace;
 } */
 
-div{
-	@apply justify-center items-center;
-}
+/* div{
+	@apply flex justify-center items-center;
+} */
 
 button{
-    @apply bg-gray-300 ;
+    /* @apply bg-gray-300 text-black font-bold ; */
+	@apply bg-white bg-opacity-20 backdrop-blur-md text-white py-2 px-6 rounded-lg shadow-lg border border-white border-opacity-30;
+  transition: all 0.3s ease;
 }
 
